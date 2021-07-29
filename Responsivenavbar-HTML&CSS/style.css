@@ -38,6 +38,41 @@ body {
   margin-right: 10%;
   margin-top: 1%;
 }
+/* La pseudo-clase :focus CSS representa un elemento (como una entrada de formulario)
+que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento */
+#myStyle{
+  margin-left:10%;
+}
+/* pseudoelemento*/
+p::first-letter {
+  color: orange;
+  text-decoration: underline;
+
+}
+/* pseudoclase */
+a:visited {
+  color: green;
+}
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
+
+ul {
+  display: inline;
+
+}
+li::after {
+    color: #21acde;
+    content: " | ";
+    display: inline-block;
+}
+
 
 /* Extend */
 .success {
